@@ -1,0 +1,134 @@
+/* Client-specific Styles */
+
+// bower:css
+// endbower
+
+// bower:scss
+// endbower
+
+#outlook a {
+    padding: 0;
+}
+
+body {
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-family: Raleway;
+    font-size: 17px;
+}
+
+body, table.body, h1, h2, h3, h4, h5, h6, p, td {
+    font-family: Raleway;
+}
+
+.ExternalClass {
+    width: 100%;
+
+    &,
+    p,
+    span,
+    font,
+    td,
+    div {
+        line-height: 100%;
+    }
+}
+
+#backgroundTable {
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
+    line-height: 100% !important;
+}
+
+/* End reset */
+
+img {
+    outline: none;
+    text-decoration: none;
+    -ms-interpolation-mode: bicubic;
+}
+
+a img {
+    border: none;
+}
+
+table {
+    border-spacing: 0;
+    mso-table-lspace: 0pt;
+    mso-table-rspace: 0pt;
+
+    &,
+    td {
+        border-collapse: collapse;
+    }
+}
+
+.padding-base {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+
+.margin-top-md {
+    margin-top: 30px;
+}
+
+.wrapper {
+    @extend .padding-base;
+}
+
+.brand-primary {
+    background-color: #f9f9f9;
+}
+
+.brand-secondary {
+    background-color: #eaeaea;
+}
+
+
+.heading-text {
+    color: #707070;
+    font-size: 22px;
+}
+
+h2 {
+    color: #707070;
+    font-size: 22px;
+}
+
+h3 {
+    color: #707070;
+    font-size: 20px;
+}
+
+.main-text {
+    font-size: 20px;
+    color: #707070;
+}
+
+.sub-text {
+    font-size: 17px;
+    color: #707070;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.main-button {
+    @extend .padding-base;
+    display: block;
+}
+
+.list-inline {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    li {
+        display: inline-block;
+    }
+}
