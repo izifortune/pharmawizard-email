@@ -1,0 +1,140 @@
+/* Client-specific Styles */
+/* line 9, ../scss/style.scss */
+#outlook a {
+  padding: 0;
+}
+
+/* line 13, ../scss/style.scss */
+body {
+  width: 100% !important;
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-family: Raleway;
+  font-size: 17px;
+}
+
+/* line 23, ../scss/style.scss */
+body, table.body, h1, h2, h3, h4, h5, h6, p, td {
+  font-family: Raleway;
+}
+
+/* line 27, ../scss/style.scss */
+.ExternalClass {
+  width: 100%;
+}
+/* line 30, ../scss/style.scss */
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+  line-height: 100%;
+}
+
+/* line 40, ../scss/style.scss */
+#backgroundTable {
+  width: 100% !important;
+  margin: 0;
+  padding: 0;
+  line-height: 100% !important;
+}
+
+/* End reset */
+/* line 49, ../scss/style.scss */
+img {
+  outline: none;
+  text-decoration: none;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 55, ../scss/style.scss */
+a img {
+  border: none;
+}
+
+/* line 59, ../scss/style.scss */
+table {
+  border-spacing: 0;
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
+}
+/* line 64, ../scss/style.scss */
+table,
+table td {
+  border-collapse: collapse;
+}
+
+/* line 70, ../scss/style.scss */
+.padding-base, .wrapper, .main-button {
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+}
+
+/* line 75, ../scss/style.scss */
+.margin-top-md {
+  margin-top: 30px;
+}
+
+/* line 83, ../scss/style.scss */
+.brand-primary {
+  background-color: #f9f9f9;
+}
+
+/* line 87, ../scss/style.scss */
+.brand-secondary {
+  background-color: #eaeaea;
+}
+
+/* line 92, ../scss/style.scss */
+.heading-text {
+  color: #707070;
+  font-size: 22px;
+}
+
+/* line 97, ../scss/style.scss */
+h2 {
+  color: #707070;
+  font-size: 22px;
+}
+
+/* line 102, ../scss/style.scss */
+h3 {
+  color: #707070;
+  font-size: 20px;
+}
+
+/* line 107, ../scss/style.scss */
+.main-text {
+  font-size: 20px;
+  color: #707070;
+}
+
+/* line 112, ../scss/style.scss */
+.sub-text {
+  font-size: 17px;
+  color: #707070;
+}
+
+/* line 117, ../scss/style.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 121, ../scss/style.scss */
+.main-button {
+  display: block;
+}
+
+/* line 126, ../scss/style.scss */
+.list-inline {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+/* line 131, ../scss/style.scss */
+.list-inline li {
+  display: inline-block;
+}
